@@ -73,7 +73,7 @@ body{
  font-family: 'Lato', sans-serif;
  transition: all 0.50s linear;
  line-height: 1.6;
- background-color: #fafafa;
+ background-color: /* #FFF9F1 */ #FFFDFB;
  color: ${({ theme }) => theme.text.primary};
 }
 `;

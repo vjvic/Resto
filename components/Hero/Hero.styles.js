@@ -41,5 +41,9 @@ export const HeroImage = styled.div`
 
   @media ${({ theme }) => theme.breakpoints.md} {
     margin-top: 1.2rem;
+
+    img {
+      margin: auto;
+    }
   }
 `;

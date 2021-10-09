@@ -33,6 +33,7 @@ export const NavItems = styled.ul`
   @media ${({ theme }) => theme.breakpoints.md} {
     position: fixed;
     background: #fff;
+    z-index: 2;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     top: 0;
     left: ${({ isToggle }) => (isToggle ? 0 : "-100%")};

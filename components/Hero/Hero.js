@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <HeroContainer as="section">
       <HeroTextContent>
-        <h2>The Drink and dine</h2>
+        <h2>The Drink and Dine</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt

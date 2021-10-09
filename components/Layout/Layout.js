@@ -4,8 +4,13 @@ import GlobalStyle from "styles/GlobalStyles";
 import { ThemeProvider } from "styled-components";
 import themes from "themes/default";
 import { Container } from "styles/Container";
+import { useLoaded } from "components/hooks/useLoaded";
 
 const Layout = ({ children }) => {
+  const loaded = useLoaded();
+
+  if (!loaded) return "";
+
   return (
     <ThemeProvider theme={themes}>
       <div>
