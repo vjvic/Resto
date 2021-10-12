@@ -1,3 +1,7 @@
+# Restaurant Landing Page
+
+### ongoing project
+
 # How to install
 
 - Download/Clone the repo
