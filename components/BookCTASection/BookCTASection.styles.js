@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const BookCTAContainer = styled.section`
-  background: url("/foodBg.jpg") no-repeat center;
+  background: url("/food-bg.jpg") no-repeat center;
   background-size: cover;
   min-height: 300px;
   width: 100%;
