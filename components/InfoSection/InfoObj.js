@@ -5,7 +5,7 @@ export const infoData = [
     description:
       "Agile drink the Kool-aid, for nail jelly to the hothouse wall, for deploy, and nail it down when does this sunset? . They have downloaded gmail and seems to be working for now future-proof pass the mayo, appeal to the client, sue the vice president , touch base. Looks great, can we try it a different way what the put a record on and see who dances bleeding edge.",
     imgStart: true,
-    img: "/info-image/info1.jpg",
+    img: require("/info-image/info1.jpg"),
   },
   {
     id: "info2",
@@ -13,7 +13,7 @@ export const infoData = [
     description:
       "Agile drink the Kool-aid, for nail jelly to the hothouse wall, for deploy, and nail it down when does this sunset? . They have downloaded gmail and seems to be working for now future-proof pass the mayo, appeal to the client, sue the vice president , touch base. Looks great, can we try it a different way what the put a record on and see who dances bleeding edge.",
     imgStart: false,
-    img: "/info-image/info2.jpg",
+    img: require("/info-image/info2.jpg"),
   },
   {
     id: "info3",
@@ -21,6 +21,6 @@ export const infoData = [
     description:
       "Agile drink the Kool-aid, for nail jelly to the hothouse wall, for deploy, and nail it down when does this sunset? . They have downloaded gmail and seems to be working for now future-proof pass the mayo, appeal to the client, sue the vice president , touch base. Looks great, can we try it a different way what the put a record on and see who dances bleeding edge.",
     imgStart: true,
-    img: "/info-image/info3.jpg",
+    img: require("/info-image/info3.jpg"),
   },
 ];

@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { Container } from "styles/Container";
 import { Flex } from "styles/Flex";
 
 export const HeroContainer = styled.section`
