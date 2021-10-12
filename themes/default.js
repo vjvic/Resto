@@ -21,7 +21,7 @@ const theme = {
     easeOut: "all 0.3s ease-out;",
   },
 
-  overlay: "rgba(0, 0, 0, 0.4)",
+  overlay: "rgba(0, 0, 0, 0.5)",
 
   breakpoints: {
     xs: `(max-width: 320px)`,

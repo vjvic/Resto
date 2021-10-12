@@ -44,10 +44,6 @@ export const NavItems = styled.ul`
 
     li {
       padding: 1rem;
-
-      &:hover {
-        background: lightgray;
-      }
     }
   }
 `;

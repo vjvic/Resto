@@ -9,11 +9,13 @@ export const HeroContainer = styled.section`
   justify-content: center;
   grid-gap: 1rem;
   margin: auto;
-  padding-top: 60px;
+  height: 100vh;
 
   @media ${({ theme }) => theme.breakpoints.md} {
     text-align: center;
     display: block;
+    height: 100vh;
+    padding-top: 40px;
 
     ${Flex} {
       justify-content: center;

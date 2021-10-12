@@ -2,7 +2,11 @@ import styled from "styled-components";
 import { Section } from "styles/Section";
 import { Card } from "styles/Card";
 
-export const PopularContainer = styled(Section)`
+export const PopularContainer = styled.section`
+  min-height: 50vh;
+  padding: 40px 0;
+  margin-bottom: 40px;
+
   .react-multiple-carousel__arrow {
     background-color: ${({ theme }) => theme.color.primary};
   }
@@ -36,4 +40,13 @@ export const Info = styled.div`
   h3 {
     margin: 0.5rem 0;
   }
+`;
+
+export const TextWrapper = styled.div`
+  text-align: center;
+`;
+
+export const PopularTitle = styled.h2`
+  font-size: 2.4rem;
+  padding: 0.5rem;
 `;

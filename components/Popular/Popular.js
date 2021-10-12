@@ -1,11 +1,15 @@
-import { PopularContainer, SliderWrapper, Info } from "./Popular.styles";
-import Image from "next/image";
+import {
+  PopularContainer,
+  PopularTitle,
+  Info,
+  TextWrapper,
+} from "./Popular.styles";
 import { Card } from "styles/Card";
-import { Paragraph } from "styles/Section";
+import { Paragraph } from "styles/Typography";
 import ReactStars from "react-rating-stars-component";
-
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import useAnimate from "components/hooks/useAnimate";
 
 const dummyDishItem = [
   {
@@ -53,6 +57,8 @@ const dummyDishItem = [
 ];
 
 const Popular = () => {
+  const { ref, animation, motion } = useAnimate();
+
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
@@ -73,8 +79,14 @@ const Popular = () => {
   };
 
   return (
-    <PopularContainer>
-      <h2>Popular Dishes</h2>
+    <PopularContainer ref={ref} as={motion.section} animate={animation}>
+      <TextWrapper>
+        <PopularTitle>Popular Dishes</PopularTitle>
+        <Paragraph>
+          Agile drink the Kool-aid, for nail jelly to the hothouse wall, for
+          deploy, and nail it down when does this sunset? .
+        </Paragraph>
+      </TextWrapper>
       <Carousel
         containerClass="carousel-container"
         removeArrowOnDeviceType={["tablet", "mobile"]}
